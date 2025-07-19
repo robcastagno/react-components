@@ -17,4 +17,4 @@ function Button({ text }: { text: string }): React.JSX.Element {
   )
 }
 
-export default Button
+export default Button;
