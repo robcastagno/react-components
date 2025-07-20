@@ -5,26 +5,16 @@ const meta = {
   component: Button,
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'danger', 'success', 'warning', 'invalid'],
       control: { type: 'select' },
+      options: ['Primary', 'Secondary', 'Danger', 'Invalid', 'Success', 'Warning']
     },
     size: {
-      options: ['small', 'medium', 'large'],
       control: { type: 'select' },
-    },
-    disabled: {
-      control: { type: 'boolean' },
+      options: ['Small', 'Medium', 'Large']
     },
     radius: {
-      options: ['none', 'sm', 'md', 'lg', 'full'],
       control: { type: 'select' },
-    },
-    colors: {
-      options: ['blue', 'gray', 'red', 'green', 'yellow', 'purple'],
-      control: { type: 'select' },
-    },
-    loading: {
-      control: { type: 'boolean' },
+      options: ['None', 'Small', 'Medium', 'Large', 'Full']
     },
   },
 } satisfies Meta<typeof Button>;
@@ -35,12 +25,9 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     children: 'Click Me',
-    variant: 'primary',
-    size: 'medium',
-    disabled: false,
-    radius: 'md',
-    colors: 'blue',
-    loading: false,
+    variant: 'Primary',
+    size: 'Medium',
+    radius: 'Medium',
     onClick: () => {window.alert('Button clicked!')},
   },
 }
