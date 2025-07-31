@@ -7,3 +7,12 @@
   - Sizes (Small, Medium, Large)
   - Radius (None, Small, Medium, Large, Full)
   - Disabled State
+
+# In-Progress Components
+- Autocomplete
+- Chips
+- DataGrid
+- Menubar
+- Popover
+- Tooltip
+- Virtual Scroller
