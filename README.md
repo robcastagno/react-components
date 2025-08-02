@@ -9,10 +9,15 @@
   - Disabled State
 
 # In-Progress Components
+- Virtual Scroller
+  - Can scroll through a large list of values with memory of what items belong where
+  - Horizontal scrolling (not implemented)
+  - Size awareness (not implemeneted)
+
+# Planned Components
 - Autocomplete
 - Chips
 - DataGrid
 - Menubar
 - Popover
 - Tooltip
-- Virtual Scroller
